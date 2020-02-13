@@ -20,8 +20,8 @@ export const GET_USERS = gql`
 `;
 
 export const GET_MONTH_EXPENSES = gql`
-  query GetMonthExpenses {
-    expenses {
+  query GetMonthExpenses($month: String!) {
+    expenses(month: $month) {
       ...ExpenseFields
     }
   }

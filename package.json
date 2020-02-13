@@ -1,6 +1,4 @@
 {
-  "name": "finanzas",
-  "version": "0.0.1",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -11,6 +9,7 @@
   },
   "dependencies": {
     "@apollo/react-hooks": "^3.1.3",
+    "@react-native-community/google-signin": "^3.0.4",
     "apollo-boost": "^0.4.7",
     "apollo-client": "^2.6.8",
     "crocks": "^0.12.4",
