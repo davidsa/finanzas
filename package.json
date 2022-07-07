@@ -14,7 +14,7 @@
     "apollo-client": "^2.6.8",
     "crocks": "^0.12.4",
     "graphql": "^14.6.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "numeral": "^2.0.6",
     "prettier": "^1.19.1",
     "react": "16.9.0",
